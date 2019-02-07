@@ -255,7 +255,7 @@
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     align-items: center;
-    margin-top: 1rem;
+    padding-top: 50px;
 }
 
 #sec2 h3 {
@@ -422,7 +422,7 @@ figcaption:hover:after {
 /*--This is the fifth section (Sign in Form)--*/
 #sec2-3 {
     width: auto;
-    height: 95vh;
+    height: 100vh;
     padding: 2rem;
     display: flex;
     justify-content: center;
