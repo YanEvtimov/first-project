@@ -88,8 +88,9 @@ footer p {
     margin: 0;
     padding: 0.5rem;
     text-align: center;
-}
-
-footer p:first-of-type {
     color: #F0F7F4;
 }
+
+/*footer p:first-of-type {
+    color: #F0F7F4;
+}*/
