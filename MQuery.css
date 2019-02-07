@@ -1,0 +1,65 @@
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    #sec2 {
+        grid-template-rows: repeat(5, auto-fit);
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #sec2 h3 {
+        grid-area: 1/1/2/3;
+    }
+
+    #sec2 button {
+        grid-area: 6/1/7/3;
+    }
+
+    #sec2 figure {
+        width: 33vw;
+    }
+
+    #sec2-3 div {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    #sec1-2-1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(10, 1fr);
+        grid-template-areas:
+        "GH"
+        "GI1"
+        "GP1"
+        "GF1"
+        "GI2"
+        "GP2"
+        "GF2"
+        "GI3"
+        "GP3"
+        "GF3";
+    }
+
+    #sec2 {
+        grid-template-rows: repeat(6, auto-fit);
+        grid-template-columns: 1fr;
+    }
+
+    #sec2 h3 {
+        grid-area: 1/1/2/2;
+        text-align: center;
+    }
+
+    #sec2 button {
+        grid-area: 8/1/9/2;
+    }
+    
+    #sec2 figure {
+        width: 50vw;
+    }
+
+    #sec2-3 div {
+        width: 66%;
+    }
+
+    #sec3 {
+        height: auto;
+    }
+}

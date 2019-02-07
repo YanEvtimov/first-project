@@ -1,0 +1,544 @@
+/*--This is the first section (Opening)--*/
+#sec1 {
+    height: 95vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 0.5fr 2fr;
+    justify-items: center;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #F0F7F4;*/
+    background-image: url('ui-ux-banner.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#sec1 h2 {
+    color: /*#3C493F*/ #F0F7F4;
+    font-size: 2.7rem;
+    align-self: end;
+}
+
+
+#sec1 p {
+    color: #A2E3C4;
+    align-self: top;
+}
+
+#sec1 a.arrow {
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px 1px 1px 0px;
+    transform: rotate(45deg);
+    transition: border-width 150ms ease-in-out;
+    /*position: absolute;
+    bottom: 2rem;*/
+    align-self: end;
+    margin-bottom: 5vh;
+}
+
+#sec1 a.arrow:hover {
+  border-bottom-width: 4px;
+  border-right-width: 4px;
+}
+/*-------*/
+
+/*--This is the second section (About, My Achievments)--*/
+#sec1-2-1 {
+    width: auto;
+    height: auto;
+    background-image: linear-gradient(white,  #F0F7F4);
+    padding: 2rem 1rem 2rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas:
+        "GH GH GH"
+        "GI1 GI2 GI3"
+        "GP1 GP2 GP3"
+        "GF1 GF2 GF3";
+    align-items: center;
+    justify-items: center;
+}
+
+#sec1-2-1 h3 {
+    grid-area: GH;
+    font-size: 2rem;
+    color: #3C493F;
+}
+
+#sec1-2-1 i {
+    color: #3C493F;
+}
+
+#sec1-2-1 i:nth-of-type(1) {
+    grid-area: GI1;
+}
+
+#sec1-2-1 i:nth-of-type(2) {
+    grid-area: GI2;
+}
+
+#sec1-2-1 i:nth-of-type(3) {
+    grid-area: GI3;
+}
+
+
+#sec1-2-1 p:nth-of-type(1) {
+    grid-area: GP1;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #5A9367;
+}
+
+#sec1-2-1 p:nth-of-type(2) {
+    grid-area: GP2;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #5A9367;
+}
+
+#sec1-2-1 p:nth-of-type(3) {
+    grid-area: GP3;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #5A9367;
+}
+
+
+#sec1-2-1 p:nth-of-type(4) {
+    grid-area: GF1;
+    font-weight: bold;
+    align-self: start;
+}
+
+#sec1-2-1 p:nth-of-type(5) {
+    grid-area: GF2;
+    font-weight: bold;
+    align-self: start;
+}
+
+#sec1-2-1 p:nth-of-type(6) {
+    grid-area: GF3;
+    font-weight: bold;
+    align-self: start;
+}
+/*-------*/
+
+/*--This is the third section (skills bar)--*/
+#sec1-2-2 {
+    width: auto;
+    height: auto;
+    background-image: url('computer-desk.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.skillsBar {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    grid-template-rows: repeat(8, 1fr);
+    grid-template-areas:
+        "someT1 perc1"
+        "divB1 perc1"
+        "someT2 perc2"
+        "divB2 perc2"
+        "someT3 perc3"
+        "divB3 perc3"
+        "someT4 perc4"
+        "divB4 perc4";
+}
+
+.skillsBar h4:nth-of-type(1) {
+    grid-area: someT1;
+}
+.skillsBar p:nth-of-type(1) {
+    grid-area: perc1;
+    align-self: center;
+}
+
+.skillsBar h4:nth-of-type(2) {
+    grid-area: someT2;
+}
+.skillsBar p:nth-of-type(2) {
+    grid-area: perc2;
+    align-self: center;
+}
+
+.skillsBar h4:nth-of-type(3) {
+    grid-area: someT3;
+}
+.skillsBar p:nth-of-type(3) {
+    grid-area: perc3;
+    align-self: center;
+}
+
+.skillsBar h4:nth-of-type(4) {
+    grid-area: someT4;
+}
+.skillsBar p:nth-of-type(4) {
+    grid-area: perc4;
+    align-self: center;
+}
+
+.skillsBar div {
+    height: 15%;
+    background-color: #3C493F;
+    border-radius: 10px;
+}
+
+.skillsBar div:nth-of-type(1) {
+    grid-area: divB1;
+    width: 90%;
+}
+
+.skillsBar div:nth-of-type(2) {
+    grid-area: divB2;
+    width: 60%;
+}
+.skillsBar div:nth-of-type(3) {
+    grid-area: divB3;
+    width: 50%;
+}
+
+.skillsBar div:nth-of-type(4) {
+    grid-area: divB4;
+    width: 70%;
+}
+
+#sec1-2-2 h3 {
+    color: #3C493F;
+    margin: 0;
+    padding: 1rem;
+    text-transform: capitalize;
+    font-size: 1.5rem;
+}
+
+.skillsBar p {
+    font-weight: bold;
+    color: #3C493F;
+    margin: 0;
+    padding: 1rem;
+}
+
+.skillsBar h4 {
+    color: #5A9367;
+    margin: 0;
+    padding: 1rem;
+}
+/*-------*/
+
+/*--This is the fourth section (Projects)--*/
+#sec2 {
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+    /*display: flex;
+    flex-direction: column;
+    align-items: center;*/
+    display: grid;
+    grid-template-rows: repeat(4, auto-fit);
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+#sec2 h3 {
+    grid-area: 1/1/2/4;
+    color: #3C493F;
+    font-size: 2rem;
+}
+
+#sec2 figure {
+    border: 2px solid #A2E3C4;
+    border-radius: 3px;
+    width: 25vw;
+    height: 250px;
+    background-color: #F0F7F4;
+    overflow: hidden;
+}
+
+#sec2 figure div {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.8s ease;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#sec2 figure:nth-of-type(1) div {
+    background-image: url('logIn.jpg');
+}
+
+#sec2 figure:nth-of-type(2) div {
+    background-image: url('job-banner.jpg');
+}
+
+#sec2 figure:nth-of-type(3) div {
+    background-image: url('techDocP.jpg');
+}
+
+#sec2 figure:nth-of-type(4) div {
+    background-image: url('ui-ux-banner.jpg');
+}
+
+#sec2 figure:nth-of-type(5) div {
+    background-image: url('computer-desk.jpg');
+}
+
+#sec2 figure:nth-of-type(6) div {
+    background-image: url('logIn.jpg');
+}
+
+#sec2 figure div:hover {
+    transform: scale(1.2);
+}
+
+#sec2 figure div figcaption {
+    color: #5A9367;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+    background-color: transparent;
+    transition: all 0.8s ease;
+}
+
+#sec2 figure div figcaption:hover {
+    /*border-bottom: 2px solid #5A9367;*/
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+figcaption:before,
+figcaption:after {
+  content: '';
+  height: 2px;
+  background: #5A9367;
+  display: block;
+  transition: width 0.3s ease-in-out;
+  margin: 0 auto;
+}
+
+figcaption:before {
+  width: 0;
+}
+
+figcaption:after {
+  width: 0;
+}
+
+figcaption:hover:before {
+    width: 100%;
+  }
+
+figcaption:hover:after {
+  width: 100%;
+}
+
+/*#sec2 figure img {
+    max-width: 100%;
+    opacity: 0.5;
+    transition: 0.2 ease;
+}
+
+#sec2 figure img:hover {
+    opacity: 1;
+}
+
+#sec2 figure figcaption {
+    border-top: 2px solid #A2E3C4;
+    color: #5A9367;
+    font-weight: bold;
+    padding: 0.5rem;
+    text-align: center;
+}*/
+
+#sec2 button {
+    grid-area: 4/1/5/4;
+    border: none;
+    padding: 0.5rem;
+    color: #5A9367;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: transparent;
+}
+
+#sec2 button a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#sec2 button:before,
+#sec2 button:after {
+  content: '';
+  height: 2px;
+  background: #5A9367;
+  display: block;
+  transition: width 0.3s ease-in-out;
+  margin: 0 auto;
+}
+
+#sec2 button:before {
+  width: 100%;
+}
+
+#sec2 button:after {
+  width: 100%;
+}
+
+#sec2 button:hover:before {
+    width: 0;
+  }
+
+#sec2 button:hover:after {
+  width: 0;
+}
+
+#sec2 button:hover {
+    cursor: pointer;
+}
+/*-------*/
+
+/*--This is the fifth section (Sign in Form)--*/
+#sec2-3 {
+    width: auto;
+    height: auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('job-banner.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+}
+
+#sec2-3 div {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    padding: 1rem;
+    border-radius: 10px;
+    color: #F0F7F4;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+form input {
+    border: none;
+    padding: 0.5rem;
+    background-color: transparent;
+    color: #A2E3C4;
+}
+
+label {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+#sec2-3 form button {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 50%;
+    background: transparent;
+    border: 2px solid #5A9367;
+    border-radius: 3px;
+    color: #F0F7F4;
+    font-weight: bold;
+    align-self: center;
+}
+
+#sec2-3 form button:hover {
+    border: 2px solid #F0F7F4;
+    color: #5A9367;
+    cursor: pointer;
+}
+
+#sec2-3 div p a {
+    color: #5A9367;
+    font-weight: bold;
+}
+/*-------*/
+
+/*--This is the last section (Contacts and social)--*/
+#sec3 {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #A2E3C4;
+}
+
+#sec3 article {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+#sec3 article h3 {
+    color: #3C493F;
+    font-size: 2rem;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: #3C493F;
+}
+
+.buttons button {
+    border: 2px solid #5A9367;
+    background-color: #F0F7F4;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 0 2rem 2rem 2rem;
+}
+
+.buttons button:hover {
+    font-size: 1rem;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: #5A9367;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.buttons a:hover {
+    text-shadow: 0.5px 0.5px rgb(201, 201, 201);
+}
