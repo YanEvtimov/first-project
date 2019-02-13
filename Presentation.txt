@@ -1,0 +1,93 @@
+Presentation
+
+Hi, I'm Yan as everyone can see and I'm going to present you 
+my project for Personal Portfolio Website.
+
+It's a single page website, created to show my future work 
+and some of my training projects or just to be used as a template.
+That's why the site had to be able to grow and to evolve but also 
+it had to be build as a solid basis for this to happen.
+
+I believe I've achieved that, using the best practices when 
+building websites with pure HTML and CSS. My Portfolio also has a 
+great performance ratings and is 100% SEO optimised with proper 
+meta tags and everything.
+
+The colours I used in the website, I picked from coolers.co - they 
+give me a good contrast levels between the text and the background 
+of the different elements and they also do not burden the eye of 
+the user. I picked the same dark green colour for both the header 
+and the footer of my Portfolio Project.
+
+The content of the page is inserted inside a div element with the 
+class "body" which uses the CSS Grid. That allows me to easily 
+manipulate its view depending on the screen or if i just want to 
+make some changes on the overall page flow. Let's say I want to 
+make in scroll horizontally instead of vertically or to change 
+sometyhing general in the design.
+
+Anyway, let's see the core elements of this webpage - inside the 
+body div there is a header, main and a footer.
+
+This is the header, containnig a logo or heading1 - in this case 
+h1 - on the left side and it has a navbar on the right side. The 
+heading has before and after pseudo classes to make it more 
+interesting and interactive - it also realoads the page on click.  
+The navigation contains links to the different sections of the 
+main element - about, projects and contacts. It also has an icon 
+that leads to a Sing in Form.
+
+The first section is also created with CSS Grid to better position 
+the element inside it, which was not possible with flexbox for 
+example. This section is meant just to wellcome the visitors of the 
+page and invite them to explore it. This is the reason I made an 
+arrow link - to show them there is more and encourage an action. 
+The arrow could also be in greater use if the scroll direction is 
+changed at some point but this is just an idea for a different 
+version of this template.
+
+In the current view of the website the arrow just changes on 
+hover and leads to the next section which contains some info 
+about the autor. This section is just informative and is 
+separated in two - Achievments and Skills. The first part has a 
+height property of 100vh on big screens like the other sections 
+linked in the navbar. I also added a light background gradient as 
+I thought it would be an interesting design solution for visiual 
+transition to the next section. There are embedded font-awesome 
+icons with headings and corresponded description. For the Skills 
+section I made a skillbar and I added a scrollable background 
+image. Achievments section uses only display:grid, while Skills 
+has a display:flex but also uses CSS Grid for the skills bar.
+
+The projects section is also build entirely with CSS Grid, 
+because it contains many elements which need to be positioned 
+properly on different screens. The projects included are inserted 
+in divs - they have a background image that scales on hover along 
+with the heading, which links to the concrete project. The heading 
+also scales separately with before and after pseudo classes styling 
+and an easy transition effect to draw attention to this detail, so 
+the users knows it's a link ant it actualy does something.
+
+Next section contains the Sign in Form, which has labels 
+corresponding to the input fields and a sign in button. The whole 
+section is diplayed as flexbox to position the form in the perfect 
+center, which by itself has a display:flex for its own elements. 
+There is also a scrollable background image for the section and a 
+black background with rounded edges and 30% oppacity as a design 
+solution in the style of the webpage.
+
+The last section of the main section contains contacts of the 
+author - they are inserted in rounded buttons, leading to social 
+media profiles and other personal details. Both the section and 
+the buttons use flexbox. The text of the button links grows and 
+glows on hover with an easy transition and a text shadow property.
+
+It all ends with the footer, which has an auto height and it's 
+text is aligned at the center with 100% width so it doesn't need 
+to use CSS Grid or flexbox.
+
+These were the most important things you need to know about my 
+Personal Portfolio webside. So if I have missed something or you 
+have any questions, be my guests.
+
+Thank you for your attention and good look to the others.
