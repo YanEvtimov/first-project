@@ -2,6 +2,10 @@
     font-family: Rubik, Roboto, Verdana, Geneva, Tahoma, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 }
