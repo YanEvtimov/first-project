@@ -2,26 +2,26 @@
   "subscribers": [
     {
       "id": 1,
-      "name": "Sebastian",
-      "email": "sebastian@codingthesmartway.com",
-      "pass": "seba_123"
+      "Name": "Sebastian",
+      "Mail": "sebastian@codingthesmartway.com",
+      "Password": "seba_123"
     },
     {
       "id": 2,
-      "name": "Steve",
-      "email": "steve@codingthesmartway.com",
-      "pass": "steve_123"
+      "Name": "Steve",
+      "Mail": "steve@codingthesmartway.com",
+      "Password": "steve_123"
     },
     {
       "id": 3,
-      "name": "Ann",
-      "email": "ann@codingthesmartway.com",
-      "pass": "ann_123"
+      "Name": "Ann",
+      "Mail": "ann@codingthesmartway.com",
+      "Password": "ann_123"
     },
     {
-      "first_name": "Johny",
-      "email": "johny@codingthesmartway.com",
-      "pass": "johny_123",
+      "Name": "Johny",
+      "Mail": "johny@codingthesmartway.com",
+      "Password": "johny_123",
       "id": 4
     }
   ]

@@ -158,6 +158,39 @@
         </footer>
     </div>
 
-    <template></template>
+    <script src="https://unpkg.com/jquery"></script>
+    <script src="main.js"></script>
+
+    <template id="signInForm">
+        <div>
+            <h3>Sign in for Free Templates</h3>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="Name" placeholder="enter your name or username *" required>
+                <label for="name">Mail</label>
+                <input type="email" id="mail" name="Mail" placeholder="enter your e-mail address *" required>
+                <label for="pass">Password</label>
+                <input type="password" id="pass" name="Password" placeholder="******"required>
+                <button type="submit" name="SignInBtn">Sign In</button>
+            </form>
+            <p>Don't have an account? <a>Create one</a></p>
+        </div>
+    </template>
+
+    <template id="createProfile">
+        <div>
+            <h3>Create Profile</h3>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="Name" placeholder="enter your name or username *" required>
+                <label for="name">Mail</label>
+                <input type="email" id="mail" name="Mail" placeholder="enter your e-mail address *" required>
+                <label for="pass">Password</label>
+                <input type="password" id="pass" name="Password" placeholder="******" required>
+                <button type="submit" name="Subscribe">Subscribe</button>
+            </form>
+            <p><a>View subscribers</a></p>
+        </div>
+    </template>
 </body>
 </html>
