@@ -445,6 +445,11 @@ figcaption:hover:after {
     text-align: center;
 }
 
+#sec2-3 div p a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
 form {
     display: flex;
     flex-direction: column;

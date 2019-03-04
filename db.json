@@ -23,6 +23,12 @@
       "Mail": "johny@codingthesmartway.com",
       "Password": "johny_123",
       "id": 4
+    },
+    {
+      "Name": "Yan",
+      "Mail": "yan@bg.bg",
+      "Password": "yan123",
+      "id": 5
     }
   ]
 }
