@@ -29,6 +29,12 @@
       "Mail": "yan@bg.bg",
       "Password": "yan123",
       "id": 5
+    },
+    {
+      "Name": "Peter",
+      "Mail": "pesho@mailg.com",
+      "Password": "pesho_123",
+      "id": 6
     }
   ]
 }

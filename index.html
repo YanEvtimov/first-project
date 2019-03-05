@@ -173,8 +173,16 @@
                 <input type="password" id="pass" name="Password" placeholder="******"required>
                 <button type="submit" name="SignInBtn" onclick="initForm()">Sign In</button>
             </form>
-            <p>Don't have an account? <a id="createAccount" href="#sec2-3">Create one</a></p>
+            <!--<p>Don't have an account? <a id="createAccount" href="#sec2-3">Create one</a></p>-->
+            <p><a id="subsList" onclick="getSubscribers()">View subscribers</a></p>
         </div>
+        <article id="hiddenSubs">
+            <section class="clsBtn" onclick="closeArticle()">
+                <section class="barI"></section>
+                <section class="barII"></section>
+                <section class="barIII"></section>
+                </section>
+        </article>
     </template>
 
     <template id="createProfile">
