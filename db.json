@@ -35,6 +35,12 @@
       "Mail": "pesho@mailg.com",
       "Password": "pesho_123",
       "id": 6
+    },
+    {
+      "Name": "Nicole Sperz",
+      "Mail": "nicole@mailg.com",
+      "Password": "nocole_123.",
+      "id": 7
     }
   ]
 }

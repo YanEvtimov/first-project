@@ -245,7 +245,8 @@
 /*--This is the fourth section (Projects)--*/
 #sec2 {
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     padding-bottom: 1rem;
     /*display: flex;
     flex-direction: column;
@@ -460,6 +461,32 @@ figcaption:hover:after {
     z-index: 3;
     top: 50px;
     left: 0px;
+    overflow-x: scroll;
+}
+
+#sec2-3 article p {
+    text-align: center;
+}
+
+#sec2-3 article p h2 {
+    color: #F0F7F4;
+}
+
+#sec2-3 article p.subs-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+    justify-items: center;
+}
+
+#sec2-3 article p.subs-list div {
+    background-color: inherit;
+    text-align: center;
+}
+
+#sec2-3 article p.subs-list div h3 {
+    color: #A2E3C4;
 }
 
 .clsBtn {
@@ -471,7 +498,7 @@ figcaption:hover:after {
 .barI, .barII, .barIII {
     width: 35px;
     height: 5px;
-    background-color: #F0F7F4;
+    background-color: #A2E3C4;
     margin: 6px 0;
     border-radius: 2px;
 }
